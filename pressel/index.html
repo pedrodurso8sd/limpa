@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Pressel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+        }
+        .container {
+            background-color: #f0f0f0;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 350px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #800080;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #5a005a;
+        }
+        .terms {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #333;
+        }
+        .terms a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .terms a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Bem-vindo!</h2>
+        <p>Clique no botão abaixo para acessar.</p>
+        <a href="https://noticias.netlify.app/f2/" class="btn">Verifique Agora</a>
+        <p class="terms">
+            <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a>
+        </p>
+    </div>
+</body>
+</html>
